@@ -13,13 +13,9 @@ class Car:
         self.w = 564
     def ShowOn(self):
         print(self.Model)
-    def ShowOn(self):
         print(self.Company)
-    def ShowOn(self):
         print(self.d)
-    def ShowOn(self):
         print(self.h)
-    def ShowOn(self):
         print(self.w)
     def __del__(self):
         print("Delete object Car")
